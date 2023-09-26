@@ -28,6 +28,7 @@ label, input {
 
 label {
     width: calc(40% - 80px);
+    font-weight: bold;
 }
 
 input {
@@ -35,4 +36,26 @@ input {
     padding: 5px;
     border: 1px solid #333;
     border-radius: 5px;
+}
+
+.btn {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.btn button {
+    border: none;
+
+}
+
+.laranja {
+    background-color: rgb(226, 104, 3);
+    padding: 5px 10px;
+    color: white;
+}
+
+.azul {
+    background-color: rgb(34, 126, 212);
+    padding: 5px 10px;
+    color: white;
 }
